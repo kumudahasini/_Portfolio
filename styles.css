@@ -44,6 +44,29 @@ body {
     list-style: none;
     padding: 0;
 }
+/* Media Query for smaller screens (phones and tablets) */
+@media (max-width: 768px) {
+    .skill-category {
+        width: 90%; /* Make categories take up more width on smaller screens */
+        margin: 10px auto; /* Center categories */
+    }
+
+    .skills-section {
+        padding: 30px 10px; /* Reduce padding */
+    }
+
+    .skills-section h2 {
+        font-size: 1.8em; /* Adjust font size */
+    }
+
+    .skills-section p {
+        font-size: 0.9em; /* Adjust font size */
+    }
+    .nav-links a {
+        margin: 0 5px; /* Further reduced margin */
+        font-size: 0.8em; /* Further reduced font size */
+    }
+}
 
 .skill-category li {
     margin-bottom: 10px;
