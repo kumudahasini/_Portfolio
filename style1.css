@@ -60,3 +60,20 @@ body {
 .project-links a:hover {
     background-color:  #2d3b38;; 
 }
+@media (min-width: 769px) {
+    .projects-container {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 50px;
+        gap: 40px;
+    }
+
+    .project-card {
+        max-width: 300px;
+    }
+    .nav-links a {
+        margin: 0 5px; /* Further reduced margin */
+        font-size: 0.8em; /* Further reduced font size */
+    }
+}
