@@ -117,13 +117,25 @@ nav a {
 @media (max-width: 768px) {
     .skill-category {
         width: 90%; /* Make categories take up more width on smaller screens */
-        margin: 10px auto; /* Center categories */
+        margin: 0 auto; /* Center categories */
     }
     
     .skills-grid {
         flex-direction: column; /* Stack cards vertically */
         align-items: center;
+        gap:20px;
+        
     }
+     .skill-category li {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .skill-category img {
+        width: 20px;
+        height: 20px;
+    }
+
 
 
     .skills-section {
