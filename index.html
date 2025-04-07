@@ -111,11 +111,23 @@
             background-color: rgba(100, 255, 218, 0.1);
             color: #ffffff;
         }
-        nav a.active {
-    background-color: #992525; 
-    color: #87ceeb; 
-    text-decoration: underline;
-    text-underline-offset: 5px; 
+     
+        @media (max-width: 768px) {
+.container {
+width: 95%; 
+}
+
+.profile-name {
+font-size: 1.8em;
+}
+
+.about-me {
+font-size: 0.9em; 
+}
+.nav-links a {
+    margin: 0 5px; /* Further reduced margin */
+    font-size: 0.8em; /* Further reduced font size */
+}
 }
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
