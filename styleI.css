@@ -84,13 +84,22 @@ transform: scale(1.1);
 }
 
 nav {
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 15px 0;
+      background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px 15px;
     width: 100%;
     text-align: right;
     position: fixed;
     top: 0;
     z-index: 100;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
 }
 
 nav a {
@@ -100,6 +109,8 @@ nav a {
     padding: 10px 15px;
     border-radius: 5px;
     transition: background-color 0.3s ease, color 0.3s ease;
+     font-size: 1rem;
+    flex: none;
 }
 
 nav a:hover {
@@ -125,8 +136,13 @@ font-size: 1.8em;
 .about-me {
 font-size: 0.9em; 
 }
-.nav-links a {
-    margin: 0 5px; /* Further reduced margin */
-    font-size: 0.8em; /* Further reduced font size */
+nav {
+    justify-content: space-around;
+    padding: 10px;
+}
+
+nav a {
+    font-size: 0.9em;
+    padding: 8px 10px;
 }
 }
